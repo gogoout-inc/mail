@@ -43,11 +43,16 @@ const output = mjml2html({
             {
               tagName: 'mj-hero',
               attributes: {
-                'background-url': 'https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_3.jpeg'
+                'background-url': 'https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_3.jpeg',
+                height: '350px',
+                mode: 'fixed-height'
               },
               children: [
                 {
                   tagName: 'mj-group',
+                  attributes: {
+                    padding: '87.5px 0 0 0'
+                  },
                   children: [
                     {
                       tagName: 'mj-column',
@@ -55,12 +60,12 @@ const output = mjml2html({
                         {
                           tagName: 'mj-image',
                           attributes: {
-                            width: '50px',
-                            height: '50px',
+                            width: '90px',
+                            height: '90px',
                             'border-radius': '999px',
                             src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2nG24AYDm6FOEC7jIfgubO96GbRso2Xshu1f8abSYQ&s',
                             // src: '$facebook',
-                            padding: 0
+                            padding: '0 0 0 47.5%'
                           }
                         }
                       ]
@@ -71,8 +76,8 @@ const output = mjml2html({
                         {
                           tagName: 'mj-image',
                           attributes: {
-                            width: '50px',
-                            height: '50px',
+                            width: '90px',
+                            height: '90px',
                             'border-radius': '999px',
                             src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2nG24AYDm6FOEC7jIfgubO96GbRso2Xshu1f8abSYQ&s',
                             // src: '$facebook',
@@ -86,12 +91,12 @@ const output = mjml2html({
                         {
                           tagName: 'mj-image',
                           attributes: {
-                            width: '50px',
-                            height: '50px',
+                            width: '90px',
+                            height: '90px',
                             'border-radius': '999px',
                             src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2nG24AYDm6FOEC7jIfgubO96GbRso2Xshu1f8abSYQ&s',
                             // src: '$facebook',
-                            padding: 0
+                            padding: '0 47.5% 0 0'
                           }
                         }
                       ]
