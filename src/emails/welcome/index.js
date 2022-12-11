@@ -11,7 +11,6 @@ const output = mjml2html({
   children: [
     // Header
     header,
-
     // Body
     {
       tagName: 'mj-body',
@@ -44,7 +43,8 @@ const output = mjml2html({
               tagName: 'mj-hero',
               attributes: {
                 'background-url': 'https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_3.jpeg',
-                height: '350px',
+                // height: '350px',
+                height: '200px',
                 mode: 'fixed-height'
               },
               children: [
