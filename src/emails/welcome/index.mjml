@@ -1,0 +1,27 @@
+<mjml>
+  <mj-head>
+      <mj-style inline="inline">
+      .flex table tbody tr td div table tbody tr td table tbody{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-hero>
+      <mj-image padding='0' fluid-on-mobile='true'  src="/src/emails/welcome/assets/img/1.jpeg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner1&utm_content=&utm_term=" />
+      <mj-image padding='0' fluid-on-mobile='true' src="/src/emails/welcome/assets/img/2.jpeg" href="https://gogoout.com/blog/2023cny/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner2&utm_content=&utm_term=" />
+    </mj-hero>
+
+    <mj-hero css-class='flex' height='300px' background-url='/src/emails/welcome/assets/img/3.jpg'>
+      <mj-image width='75px' height='75px' border-radius='999px' src="/src/emails/welcome/assets/icon/facebook.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+      <mj-image width='75px' height='75px' border-radius='999px' src="/src/emails/welcome/assets/icon/messenger.jpg" href="m.me/gogooutt?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_messenger&utm_content=&utm_term="/>
+      <mj-image width='75px' height='75px' border-radius='999px' src="/src/emails/welcome/assets/icon/ig.jpg" href="https://www.instagram.com/gogooutcom/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_instagram&utm_content=&utm_term="/>
+    </mj-hero>
+
+    <mj-hero>
+      <mj-image padding='0' fluid-on-mobile='true'  src="/src/emails/welcome/assets/img/4.jpeg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=foot&utm_content=&utm_term=" />
+    </mj-hero>
+  </mj-body>
+</mjml>
