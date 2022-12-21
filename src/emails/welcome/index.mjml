@@ -1,27 +1,34 @@
 <mjml>
-  <mj-head>
-      <mj-style inline="inline">
-      .flex table tbody tr td div table tbody tr td table tbody{
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
-      }
-    </mj-style>
-  </mj-head>
   <mj-body>
-    <mj-hero>
-      <mj-image padding='0' fluid-on-mobile='true'  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_1.jpeg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner1&utm_content=&utm_term=" />
-      <mj-image padding='0' fluid-on-mobile='true' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_2.jpeg" href="https://gogoout.com/blog/2023cny/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner2&utm_content=&utm_term=" />
-    </mj-hero>
+    <mj-section padding='0'>
+      <mj-column >
+        <mj-image padding='0' fluid-on-mobile='true'  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_1.jpg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner1&utm_content=&utm_term=" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding='0'>
+      <mj-column >
+        <mj-image padding='0' fluid-on-mobile='true' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_2.jpg" href="https://gogoout.com/blog/2023cny/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner2&utm_content=&utm_term=" />
+      </mj-column>
+    </mj-section>
 
-    <mj-hero css-class='flex' height='300px' background-url='https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_3.jpg'>
-      <mj-image width='75px' height='75px' border-radius='999px' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/assets/icon/facebook.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
-      <mj-image width='75px' height='75px' border-radius='999px' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/assets/icon/messenger.jpg" href="m.me/gogooutt?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_messenger&utm_content=&utm_term="/>
-      <mj-image width='75px' height='75px' border-radius='999px' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/assets/icon/instagram.jpg" href="https://www.instagram.com/gogooutcom/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_instagram&utm_content=&utm_term="/>
-    </mj-hero>
+    <mj-section padding='0'>
+      <mj-group>
+        <mj-column>
+          <mj-image padding='0' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-1.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+        </mj-column>
+        <mj-column>
+          <mj-image padding='0' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-2.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+        </mj-column>
+        <mj-column>
+          <mj-image padding='0' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-3.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+        </mj-column>
+      </mj-group>
+    </mj-section>
 
-    <mj-hero>
-      <mj-image padding='0' fluid-on-mobile='true'  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/en_4.jpeg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=foot&utm_content=&utm_term=" />
-    </mj-hero>
+    <mj-section padding='0'>
+      <mj-column >
+        <mj-image padding='0' fluid-on-mobile='true'  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_4.jpg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=foot&utm_content=&utm_term=" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
