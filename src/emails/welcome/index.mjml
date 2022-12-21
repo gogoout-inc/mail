@@ -1,33 +1,58 @@
 <mjml>
   <mj-body>
-    <mj-section padding='0'>
-      <mj-column >
-        <mj-image padding='0' fluid-on-mobile='true'  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_1.jpg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner1&utm_content=&utm_term=" />
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0"
+                  fluid-on-mobile="true"
+                  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_1.jpg"
+                  href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner1&utm_content=&utm_term="
+        >
+        </mj-image>
       </mj-column>
     </mj-section>
-    <mj-section padding='0'>
-      <mj-column >
-        <mj-image padding='0' fluid-on-mobile='true' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_2.jpg" href="https://gogoout.com/blog/2023cny/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner2&utm_content=&utm_term=" />
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0"
+                  fluid-on-mobile="true"
+                  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_2.jpg"
+                  href="https://gogoout.com/blog/2023cny/?utm_source=edm&utm_medium=register_cn&utm_campaign=banner2&utm_content=&utm_term="
+        >
+        </mj-image>
       </mj-column>
     </mj-section>
-
-    <mj-section padding='0'>
+    <mj-section padding="0">
       <mj-group>
         <mj-column>
-          <mj-image padding='0' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-1.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+          <mj-image padding="0"
+                    src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-1.jpg"
+                    href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="
+          >
+          </mj-image>
         </mj-column>
         <mj-column>
-          <mj-image padding='0' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-2.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+          <mj-image padding="0"
+                    src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-2.jpg"
+                    href="https://m.me/gogooutt?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_messenger&utm_content=&utm_term="
+          >
+          </mj-image>
         </mj-column>
         <mj-column>
-          <mj-image padding='0' src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-3.jpg" href="https://www.facebook.com/gogooutt/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_facebook&utm_content=&utm_term="/>
+          <mj-image padding="0"
+                    src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_3-3.jpg"
+                    href="https://www.instagram.com/gogooutcom/?utm_source=edm&utm_medium=register_cn&utm_campaign=sociallink_instagram&utm_content=&utm_term="
+          >
+          </mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
-
-    <mj-section padding='0'>
-      <mj-column >
-        <mj-image padding='0' fluid-on-mobile='true'  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_4.jpg" href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=foot&utm_content=&utm_term=" />
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0"
+                  fluid-on-mobile="true"
+                  src="https://gogoout-tw.s3.ap-northeast-1.amazonaws.com/email/welcome/zh_4.jpg"
+                  href="https://gogoout.com/?utm_source=edm&utm_medium=register_cn&utm_campaign=foot&utm_content=&utm_term="
+        >
+        </mj-image>
       </mj-column>
     </mj-section>
   </mj-body>
